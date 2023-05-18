@@ -1,2 +1,0 @@
-form=document.querySelector(".feedback-form"),form.addEventListener("input",500),form.addEventListener("submit",(function(l){if(l.preventDefault(),console.log({email:a.value,message:t.value}),""===a.value||""===t.value)return alert("Please fill in all the fields!");localStorage.removeItem("feedback-form-state"),l.currentTarget.reset(),e={}}));let e=JSON.parse(localStorage.getItem("feedback-form-state"))||{};const{email:a,message:t}=form.elements;e&&(a.value=e.email||"",t.value=e.message||"");
-//# sourceMappingURL=03-feedback.fd0e7cb1.js.map
